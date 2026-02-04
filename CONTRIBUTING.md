@@ -34,7 +34,7 @@ Feature suggestions are welcome! Please include:
 1. **Fork** the repository
 2. **Create** a new branch (`git checkout -b feature/amazing-feature`)
 3. **Make** your changes
-4. **Test** thoroughly with a real Shelly EM3 device
+4. **Test** thoroughly with a real Shelly 3EM device
 5. **Commit** with clear messages (`git commit -m 'Add amazing feature'`)
 6. **Push** to your branch (`git push origin feature/amazing-feature`)
 7. **Open** a Pull Request
