@@ -1,6 +1,6 @@
-# Shelly EM3 3-Phase Monitor + Device Info + Settings + History
+# Shelly 3EM 3-Phase Monitor + Device Info + Settings + History
 
-Desktop application in C++ with Qt to monitor and log energy consumption of all 3 phases of a Shelly EM3 device via HTTP API, with complete device diagnostics, advanced configuration and historical data visualization with SQLite database.
+Desktop application in C++ with Qt to monitor and log energy consumption of all 3 phases of a Shelly 3EM device via HTTP API, with complete device diagnostics, advanced configuration and historical data visualization with SQLite database.
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -155,7 +155,7 @@ Desktop application in C++ with Qt to monitor and log energy consumption of all 
 
 ### Hardware
 
-- **Shelly EM3** device configured and connected to local network
+- **Shelly 3EM** device configured and connected to local network
 - Windows PC with access to the network where the Shelly is located
 
 ## Installation
@@ -242,9 +242,9 @@ debug\shelly_logger.exe
 
 ## Usage
 
-### Shelly EM3 Configuration
+### Shelly 3EM Configuration
 
-1. Ensure Shelly EM3 is connected to local network
+1. Ensure Shelly 3EM is connected to local network
 2. Find the device IP address (e.g.: `192.168.1.100`)
 3. Verify the endpoint is reachable:
    ```
@@ -399,7 +399,7 @@ To update translation files after code changes:
 
 This generates binary `.qm` files ready for use.
 
-## Shelly EM3 API
+## Shelly 3EM API
 
 The application uses the HTTP GET endpoint:
 
@@ -449,7 +449,7 @@ The application reads data from **all 3 phases** (`emeters[0-2]`) and many other
 |------|-------------|
 | `main.cpp` | Application entry point |
 | `mainwindow.h/cpp` | Main GUI interface with 9 charts and Device Info tab |
-| `shellymanager.h/cpp` | HTTP communication management with Shelly EM3 (data + device info) |
+| `shellymanager.h/cpp` | HTTP communication management with Shelly 3EM (data + device info) |
 | `datapoint.h` | Data structure for 3-phase samples (12 fields) |
 | `deviceinfo.h` | Device information data structure (30+ fields + helpers) |
 | `deviceinfotab.h/cpp` | Device Info widget with 5 sub-tabs |

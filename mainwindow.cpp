@@ -60,7 +60,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Imposta dimensioni finestra e limiti
     setMinimumSize(900, 550);
-    setWindowTitle(tr("Shelly EM3 - 3 Phase Monitor"));
+    setWindowTitle(tr("Shelly 3EM - 3 Phase Monitor"));
 
     // Imposta icona finestra
     setWindowIcon(QIcon(":/resources/icons/icon.png"));
@@ -2166,9 +2166,9 @@ void MainWindow::onAlarmCleared(AlarmManager::AlarmType type)
 void MainWindow::about()
 {
     QString aboutText = tr(
-        "<h2>Shelly EM3 - 3 Phase Monitor</h2>"
+        "<h2>Shelly 3EM - 3 Phase Monitor</h2>"
         "<p><b>Version:</b> %1</p>"
-        "<p>A comprehensive monitoring application for Shelly EM3 energy meters, "
+        "<p>A comprehensive monitoring application for Shelly 3EM energy meters, "
         "providing real-time data acquisition, visualization, and analysis for three-phase electrical systems.</p>"
         "<p><b>Features:</b></p>"
         "<ul>"
