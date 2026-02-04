@@ -121,7 +121,21 @@ Desktop application in C++ with Qt to monitor and log energy consumption of all 
 
 ## Screenshots
 
-*TODO: Add application screenshots*
+### Main Interface - Real-Time Monitoring
+
+![Shelly Logger Main Interface](resources/screenshots/main-interface.jpg)
+
+**Features shown:**
+- Dark theme with ergonomic color scheme
+- Real-time power chart for Phase A (cyan line)
+- Connection panel with IP and polling interval
+- Current data display (Power, Voltage, Current, Power Factor)
+- Statistics panel (Min, Max, Average, Total Power)
+- Tab navigation (Charts, Device Info, Settings, History, Statistics)
+- Multi-parameter sub-tabs (Power, Voltage, Current)
+- Active cursors panel for data inspection
+- Action buttons (Export CSV, Clear Data, Import Shelly CSV, Export Chart)
+- Status bar showing connection info and sample count
 
 ## Requirements
 
