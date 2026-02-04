@@ -1,0 +1,32 @@
+#include "mainwindow.h"
+#include "logger.h"
+#include <QApplication>
+#include <QDebug>
+
+int main(int argc, char *argv[])
+{
+    QApplication app(argc, argv);
+
+    // Informazioni applicazione per QSettings
+    QCoreApplication::setOrganizationName("ShellyLogger");
+    QCoreApplication::setApplicationName("Shelly EM3 Phase A Monitor");
+    QCoreApplication::setApplicationVersion("1.0.0");
+
+    // Initialize logging system
+    Logger::instance().initialize();
+    Logger::instance().setLogLevel(Logger::Info);  // Default: Info level (less verbose than Debug)
+    Logger::instance().setConsoleOutput(true);     // Enable console output
+
+    LOG_INFO("=== Shelly EM3 Phase A Monitor ===");
+    LOG_INFO(QString("Version: %1").arg(QCoreApplication::applicationVersion()));
+    LOG_INFO(QString("Qt Version: %1").arg(qVersion()));
+
+    qDebug() << "=== Shelly EM3 Phase A Monitor ===";
+    qDebug() << "Versione:" << QCoreApplication::applicationVersion();
+    qDebug() << "Qt Version:" << qVersion();
+
+    MainWindow mainWindow;
+    mainWindow.show();
+
+    return app.exec();
+}
