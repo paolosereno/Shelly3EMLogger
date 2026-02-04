@@ -164,7 +164,7 @@ Desktop application in C++ with Qt to monitor and log energy consumption of all 
 
 ```bash
 cd D:\SwDev
-git clone <repository-url> ShellyLogger
+git clone https://github.com/paolosereno/Shelly3EMLogger.git ShellyLogger
 cd ShellyLogger
 ```
 

@@ -53,8 +53,8 @@ Feature suggestions are welcome! Please include:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/shelly-logger.git
-cd shelly-logger
+git clone https://github.com/paolosereno/Shelly3EMLogger.git
+cd Shelly3EMLogger
 
 # Download QCustomPlot
 # Follow instructions in DOWNLOAD_QCUSTOMPLOT.md
