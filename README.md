@@ -2,10 +2,15 @@
 
 Desktop application in C++ with Qt to monitor and log energy consumption of all 3 phases of a Shelly EM3 device via HTTP API, with complete device diagnostics, advanced configuration and historical data visualization with SQLite database.
 
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Qt](https://img.shields.io/badge/Qt-6.9.1-green.svg)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![QCustomPlot](https://img.shields.io/badge/QCustomPlot-2.1.1+-orange.svg)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D4.svg)
+![Architecture](https://img.shields.io/badge/arch-x64-red.svg)
 ![Version](https://img.shields.io/badge/version-2.5.1-brightgreen.svg)
+![Status](https://img.shields.io/badge/status-stable-success.svg)
 
 ## Features
 
@@ -489,8 +494,10 @@ This project is released under the **MIT License**. See the [LICENSE](LICENSE) f
 This project uses the following third-party libraries:
 
 - **Qt Framework 6.9.1**: Licensed under LGPL v3 / Commercial License
-- **QCustomPlot 2.1.1+**: Licensed under GPL v3 (used as a library, compatible with MIT for applications)
+- **QCustomPlot 2.1.1+**: Licensed under GPL v3 by Emanuel Eichhammer (https://www.qcustomplot.com)
 - **SQLite**: Public Domain
+
+For detailed information about third-party licenses and acknowledgments, see [CREDITS.md](CREDITS.md).
 
 The MIT license allows you to freely use, modify, and distribute this software for any purpose, including commercial applications.
 

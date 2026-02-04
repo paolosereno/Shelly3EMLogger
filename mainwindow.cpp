@@ -2182,9 +2182,11 @@ void MainWindow::about()
         "<p><b>Built with:</b></p>"
         "<ul>"
         "<li>Qt %2</li>"
-        "<li>QCustomPlot for advanced charting</li>"
+        "<li>QCustomPlot 2.1.1+ (GPL v3) by Emanuel Eichhammer - <a href='https://www.qcustomplot.com'>qcustomplot.com</a></li>"
+        "<li>SQLite (Public Domain)</li>"
         "</ul>"
         "<p>Copyright © 2026 Paolo Sereno. Released under MIT License.</p>"
+        "<p><i>QCustomPlot library is licensed under GPL v3.</i></p>"
     ).arg(QCoreApplication::applicationVersion()).arg(qVersion());
 
     QMessageBox::about(this, tr("About Shelly Logger"), aboutText);

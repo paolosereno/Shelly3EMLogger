@@ -10,7 +10,12 @@
 #include <QStatusBar>
 #include <QVector>
 #include <QTabWidget>
+
+// QCustomPlot - Interactive plotting library
+// Copyright (C) 2011-2024 Emanuel Eichhammer
+// Licensed under GPL v3 - https://www.qcustomplot.com
 #include "qcustomplot.h"
+
 #include "shellymanager.h"
 #include "datapoint.h"
 #include "deviceinfotab.h"
