@@ -2184,7 +2184,7 @@ void MainWindow::about()
         "<li>Qt %2</li>"
         "<li>QCustomPlot for advanced charting</li>"
         "</ul>"
-        "<p>Copyright © 2025. All rights reserved.</p>"
+        "<p>Copyright © 2026 Paolo Sereno. Released under MIT License.</p>"
     ).arg(QCoreApplication::applicationVersion()).arg(qVersion());
 
     QMessageBox::about(this, tr("About Shelly Logger"), aboutText);
